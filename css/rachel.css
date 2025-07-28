@@ -1,0 +1,460 @@
+.how_it_works-btn.base-btn1 .play_tra{
+    background-color: #5797ef;
+    border-radius: 50%;
+    padding: 0;
+    border: 9px solid #b9cae3;
+    left: 0;
+    right: 0;
+    width: 80px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.how_it_works-btn.base-btn1 .wrap_tria{
+    border:2px solid #b9cae3;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    top:0;
+    animation: border 1s infinite;
+}
+.how_it_works-btn.base-btn1 .triangle_play{
+    width: 0;
+    height: 0;
+    border-top: 7.5px solid transparent;
+    border-left: 15px solid #fff;
+    border-bottom: 7.5px solid transparent;
+}
+#how_it_works .sideImage .button_play{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: fit-content;
+    width: 100%;
+}
+/* #how_it_works .colTable {
+    padding-top: 30px;
+    padding-bottom: 45px;
+} */
+.how_it_works-btn.base-btn1:hover {
+    border: none;
+    background-color: transparent;
+    color: unset;
+}
+
+@keyframes border {
+    0% {
+        width: 73px;
+        height: 73px;
+    }
+    25% {
+        width: 85px;
+        height: 85px;
+    }
+    50% {
+        width: 100px;
+        height: 100px;
+    }
+    75% {
+        width: 115px;
+        height: 115px;
+    }
+    100% {
+        width: 133px;
+        height: 133px;
+    }
+}
+#know_better ul{
+    width: fit-content;
+    margin: auto;
+}
+.book-widget{
+    min-height: 700px !important;
+    height: 850px;
+}
+#know_better .genny_guide{
+    display: block !important;
+    width: calc( 100% - 10px);
+    height: 60px;
+    background-color: #0c335b;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.flibbokmodal{
+    text-align: center;
+    padding: 0!important;
+    z-index: 999999 !important;
+
+}
+
+.flibbokmodal .modal-dialog:nth-of-type(1){
+    width: 1200px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 900px;
+    display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.flibbokmodal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px; /* Adjusts for spacing */
+  }
+  .flibbokmodal .modal-header{
+      padding-bottom: 0 !important;
+  }
+  .flibbokmodal .modal-body{
+    padding-top: 0 !important;
+}
+.flibbokmodal .modal-content:nth-of-type(1){
+    height: 900px;  
+}
+#know_better .genny_guide a{
+    color: #fff;
+    height: 60px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+#know_better ul li i {
+    color: unset;
+    font-size: unset;
+    position: unset;
+    left: unset;
+    top: unset;
+    display: block;
+}
+#know_better ul li img{
+    max-width: 25px; 
+    margin-right: 16px;
+}
+#know_better ul.brochure-list .download_pdf{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-height: 900px){
+    .flibbokmodal .modal-dialog:nth-of-type(1){
+        width: 900px !important;
+        height: 600px !important;
+    }
+    .flibbokmodal .modal-content:nth-of-type(1){
+        height: 600px !important;
+    }
+    .book-widget{
+        min-height: 500px !important;
+        height: 550px;
+    }
+}
+
+@media only screen and (min-height: 900px){
+    .flibbokmodal .modal-dialog:nth-of-type(1){
+        width: 1500px !important;
+        height: 850px !important;
+    }
+    .flibbokmodal .modal-content:nth-of-type(1){
+        height: 850px !important;
+    }
+    .book-widget{
+        min-height: 700px !important;
+        height: 800px !important;
+    }
+}
+@media only screen and (max-width: 1300px){
+    #know_better ul.brochure-list .download_pdf{
+        padding: 0 15px;
+        font-size: 17px;
+        letter-spacing: -0.5px;
+
+    }
+    #know_better ul li img{
+        max-width: 20px;
+        margin-right: 8px;
+    }
+    #know_better .genny_guide a{
+        font-size: 17px;
+        letter-spacing: -0.5px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .flibbokmodal .modal-dialog:nth-of-type(1){
+        width: 450px !important;
+        height: 500px !important;
+    }
+    .flibbokmodal .modal-content:nth-of-type(1){
+        height: 500px !important;
+    }
+    .book-widget{
+        min-height: 300px !important;
+        height: 450px !important;
+    }
+    
+}
+@media only screen and (max-width: 460px){
+    .flibbokmodal .modal-dialog:nth-of-type(1){
+        width: 350px !important;
+    }
+}
+@media only screen and (max-width: 350px){
+    .flibbokmodal .modal-dialog:nth-of-type(1){
+        width: 300px !important;
+    }
+}
+
+.page-template-philantropy .facts .slick-slider .slick-track,.page-template-philantropy .facts .slick-slider .slick-list{
+    margin-top: unset;       
+}
+.page-template-philantropy .facts .left_side .box{
+    margin-top: 40px !important;
+}
+.page-template-philantropy .facts .left_side{
+    background-position-y: calc(50% + 20px) !important;
+}
+
+.page-template-philantropy #impact .contentImage img{
+    max-height: 100%;
+
+}
+.page-template-philantropy #contact_philantropy{
+    display: none;
+}
+.page-template-philantropy #faq{
+    display: none;
+}
+.page-template-philantropy .philantropy{
+    border-bottom-left-radius: 50%;
+    padding-bottom: 80px;
+}
+.page-template-philantropy #equation{
+    padding-top: 100px;
+}
+.page-template-philantropy  .philantropy .imageDir{
+    position: absolute;
+    object-position: unset !important;
+    top: 0;
+    z-index: 1;
+    right: 0;
+    height: calc(100% + 150px);
+    max-height: unset;
+    object-fit: contain;
+}
+@media only screen and (max-width: 768px){
+    .page-template-philantropy .facts .left_side {
+        background-position-y: calc(50% - 30px) !important;
+    }
+    .page-template-philantropy .philantropy .imageDir{
+        top: -100px;
+
+    }
+}
+.page-template-philantropy .wrapper_box{
+    display: flex;
+    justify-content: center;
+}
+
+.page-template-philantropy #equation .box .desc{
+    text-align: center !important;
+}
+.page-template-philantropy #equation .wrapper_box i{
+    color: #98bae8;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top:140px;
+}
+.page-template-philantropy #equation .wrapper_box:nth-child(2) i{
+    margin-left: 70px;
+  
+}
+.page-template-philantropy #equation{
+    padding-bottom: 80px;
+}
+.page-template-philantropy #impact{
+    padding-top: 120px;
+}
+.page-template-philantropy #impact h3{
+    margin-bottom: 75px;
+}
+
+.page-template-philantropy .color-blue{
+    color: #0c335b;
+    right: 0;
+}
+@media only screen and (max-width: 768px){
+   
+    .page-template-philantropy .philantropy .row{
+        max-width: 100%;
+    }
+    .page-template-philantropy .philantropy {
+        border-bottom-left-radius: 25vh;
+        padding-bottom: 60px;
+    }
+    .page-template-philantropy .philantropy h2{
+        font-size: 42px;
+        font-weight: 300;
+        line-height: 1.14;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0c335b;
+        
+    }
+    .page-template-philantropy .philantropy p:first-of-type{
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .page-template-philantropy .philantropy p:first-of-type{
+        margin-bottom: 120px;
+    }
+    .page-template-philantropy .philantropy .imageDir{
+        padding-left: 30px;
+        position: unset;
+    }
+    .page-template-philantropy .wrapper_box{
+        flex-direction: column;
+    }
+    .page-template-philantropy #equation .wrapper_box i{
+        margin: 10px 0 20px !important;
+    }
+    .page-template-philantropy #equation .box .desc{
+        text-align: left !important;
+    }
+    .page-template-philantropy #equation .icon{
+        margin-bottom: 0px;
+    }
+    .page-template-philantropy #equation h4{
+        margin-top: 0;
+    }
+    .page-template-philantropy #equation{
+        padding-bottom: 14px;
+    }
+    .page-template-philantropy #hr{
+        padding: 0 35px;
+    }
+    .page-template-philantropy #equation .icon{
+        height: unset;
+        margin: unset;
+    }
+    .page-template-philantropy #impact{
+        padding-top: 54px;
+    }
+    .page-template-philantropy #impact h3{
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .page-template-philantropy #equation .icon img{
+        object-position: top;
+        padding-top: 11px;
+    }
+    .page-template-philantropy #impact .box{
+        margin-bottom: 30px;
+    }
+    .page-template-philantropy .facts .left_side{
+        padding: 0;
+    }
+    .page-template-philantropy .facts .button_mobile{
+        width: 80%;
+    }
+    .page-template-philantropy .section_map .mymap{
+        width: 220%;
+        height: auto;
+        max-width: 220%;
+    }
+    .page-template-philantropy .section_map .mainDiv{
+        padding: 0
+    }
+    .page-template-philantropy .section_map h3{
+        padding: 0 20px;
+        margin-top: 45px;
+    }
+    .page-template-philantropy .section_map{
+        padding: 0;
+    }
+    .page-template-philantropy .section_map .wrapp_map{
+        overflow: scroll;
+    }
+    .page-template-philantropy .section_map .flaot_legend{
+        padding: 0 20px;
+        margin-bottom: 45px;
+    }
+}
+.page-template-philantropy  .section_map{
+    padding-top: 75px;
+}
+.page-template-philantropy .philantropy .mainDiv{
+    max-width: 1347px;
+}
+.commercial-product section#guide_videos{
+    margin-bottom: 100px !important;
+}
+.commercial-product .productSpec{
+    margin-top: 0 !important;
+}
+.page-template-automative-main #video_section .mainDiv {
+    padding: 0 70px;
+}
+
+.page-template-about-profile .diff ul{
+    justify-content: center;
+}
+.page-template-about-awards .awards ul li {
+    width: calc(50% - 40px);
+}
+.page-template-commercial #products .slick-list, .page-template-HomeNew #products .slick-list{
+    margin: 0;
+}
+@media only screen and (max-width: 979px){
+    .page-template-about-awards .awards ul li{
+        width: auto;
+    }
+    .page-template-automative-main #our_products:after{
+        background-color: #f6faff;
+    }
+    .page-template-blog2 .firstBlog div{
+        padding: 0;
+    }
+    .firstBlog .imageBlog{
+        margin-bottom: 23px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .page-template-automative-main #video_section .mainDiv {
+        padding: 0 21px !important;
+    }
+    .technology .techAdv .slideAdv .slick-slide .box{
+        height: 100%;
+    }
+    .page-template-technology .techAdv .adv_block .box .box-btm{
+        margin-top: 16px;
+    }
+    .page-template-technology .techAdv .slideAdv .slick-slide .box img{
+        margin-bottom: 15px;
+    }
+    .page-template-home-and-office #advantages .slideAdv  button{
+        display: none !important;
+    }
+    .page-template-home-and-office #advantages .slideAdv .slick-slide .box{
+        height: 100%;
+    }
+    #advantages .slideAdv .slick-slide .box{
+        height: calc(100% - 10px);
+    }
+    .page-template-home-and-office #advantages .slideAdv .slick-list{
+        margin: 0;
+    }
+    .commercial-product section#guide_videos{
+        margin-bottom: 0 !important;
+    }
+}
